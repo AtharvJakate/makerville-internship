@@ -2,6 +2,11 @@
 <head>
 <title>Registration</title>
 <link rel="stylesheet" type="text/css" href="registration.css">
+<script>
+    function changeBodyBg(color){
+        document.body.style.background = color;
+    }
+</script>
 </head>
 <body>
 <div class="Registration">
@@ -19,7 +24,7 @@
 <br>
 <input name="date" type="date" class="form-control" placeholder="Choose Date" required>
 <br>
-<input type="submit" class="form-control submit" value=submit>
+<input type="submit" class="form-control submit" value=submit onclick="changeBodyBg('yellow');">
 <br>
 </form>
 </div>
