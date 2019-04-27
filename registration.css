@@ -43,10 +43,12 @@ font-weight:bold;
 letter-spacing:2px;
 height:50px;
 margin-top:20px;
+transition delay: 4s;
 }
 form .submit:hover{
 background-color:#f44336;
 cursor:pointer;
+transition delay: 4s;
 
 }
 
